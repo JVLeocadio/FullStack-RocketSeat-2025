@@ -1,0 +1,224 @@
+body {
+  display: inline-flex;
+  padding: 88px 80px 48px 80px;
+  align-items: center;
+  gap: 65px;
+  background: var(--background-default, #F5F4F0);
+}
+
+.contend {
+  display: flex;
+  width: 1120px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  margin-left: 80px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+
+#tag {
+  color: var(--text-headline, #E1624F);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  align-self: stretch;
+
+
+}
+
+#title1 {
+  margin-top: 8px;
+  color: var(--text-primary, #1B1B1B);
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+#imgBusan {
+  height: 660px;
+  align-self: stretch;
+  border-radius: 28px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+#descriptionBusan {
+  height: 37px;
+  align-self: stretch;
+  color: var(--text-secondary, #333);
+  text-align: center;
+  text-align: justify;
+  /* subtitle */
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+  margin-bottom: 108px;
+}
+
+p {
+  align-self: stretch;
+  color: var(--text-secondary, #333);
+  /* paragraph */
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+
+
+}
+
+
+.titlelist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.conteudolist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  gap: -10px;
+}
+
+.cardtravel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.cardtravel h3 {
+  color: var(--text-primary, #1B1B1B);
+
+  /* h3 */
+  font-family: "Open Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.description {
+  align-self: stretch;
+  color: var(--text-secondary, #333);
+  /* paragraph */
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.conteudCard {
+  align-self: stretch;
+  color: var(--text-secondary, #333);
+
+  /* paragraph */
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+#imgHaedong {
+  height: 350px;
+  align-self: stretch;
+  border-radius: 28px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+#imgBeomeo {
+  height: 350px;
+  align-self: stretch;
+  border-radius: 28px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+#imgYong {
+  height: 350px;
+  align-self: stretch;
+  border-radius: 28px;
+  background: url(<path-to-image>) lightgray -1.492px -238.902px / 100% 180.156% no-repeat;
+}
+
+#lover {
+  color: var(--text-headline, #E1624F);
+
+  /* headline */
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+
+}
+
+h2 {
+  color: var(--text-primary, #1B1B1B);
+
+  /* h2 */
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#history {
+  color: var(--accent-blue, #0C51A7);
+
+  /* paragraph */
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#casual {
+  color: var(--accent-purple, #591B98);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#family {
+  color: var(--accent-pink, #E5245E);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#orçamento {
+  color: var(--accent-orange, #E95E10);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
